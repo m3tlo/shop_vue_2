@@ -20,4 +20,5 @@ export default {
 </script>
 
 <style src="@/assets/css/style.min.css">
+
 </style>

@@ -1,47 +1,59 @@
 <template>
   <li class="catalog__item">
+    <a
+      class="catalog__pic"
+      href="#"
+      @click.prevent="$router.push('/product/' + product.id)">
+      <img :alt="product.name" :src="product.img + '.jpg'"/>
+    </a>
 
-      <a
-        @click.prevent="$router.push('/product/' + product.id)"
-        class="catalog__pic"
-        href="#">
-        <img :alt="product.name" :src="product.img + '.jpg'">
+    <h3 class="catalog__title">
+      <a href="#" @click.prevent="$router.push('/product/' + product.id)">
+        {{ product.name }}
       </a>
+    </h3>
 
-      <h3 class="catalog__title">
-        <a
-          @click.prevent="$router.push('/product/' + product.id)"
-          href="#"
-        >
-          {{ product.name }}
-        </a>
-      </h3>
-
-    <span class="catalog__price"> {{ product.price }} ₽</span>
+    <span class="catalog__price"> {{ product.price | numberFormating }} ₽</span>
 
     <ul class="colors">
-      <AppColorSelect
-        :product="product"
-        :color="color"
-      />
-
+      <li
+        v-for="color in product.colors"
+        :key="color.name"
+        class="colors__item">
+        <label class="colors__label">
+          <input
+            v-model="currentColor"
+            :value="color.name"
+            class="colors__radio sr-only"
+            type="radio"/>
+          <span
+            :style="{ backgroundColor: color.color }"
+            class="colors__value"
+            style="">
+          </span>
+        </label>
+      </li>
     </ul>
   </li>
 </template>
 
 <script>
-import AppColorSelect from '@/components/app/AppColorSelect'
+import numberFormating from '@/helpers/numberFormating'
+
 export default {
   name: 'ProductItem',
-  components: { AppColorSelect },
   props: ['product'],
   data: () => ({
-    color: 'black'
-  })
-
+    currentColor: ''
+  }),
+  filters: {
+    numberFormating
+  }
 }
 </script>
 
 <style scoped>
-
+.colors__value {
+  border: 1px solid gray;
+}
 </style>

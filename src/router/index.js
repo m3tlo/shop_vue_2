@@ -18,6 +18,12 @@ const router = new VueRouter({
       name: 'product',
       meta: { layout: 'main' },
       component: () => import('@/views/ProductPage')
+    },
+    {
+      path: '/cart',
+      name: 'cart',
+      meta: { layout: 'main' },
+      component: () => import('@/views/CartPage')
     }
     // {
     //   path: '/record',

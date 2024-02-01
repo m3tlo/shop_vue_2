@@ -2,36 +2,30 @@
   <ul class="catalog__pagination pagination">
     <li class="pagination__item">
       <a
-        :class="{'pagination__link--disabled': page === 1}"
+        :class="{ 'pagination__link--disabled': page === 1 }"
         aria-label="Предыдущая страница"
         class="pagination__link pagination__link--arrow"
         href="#"
-        @click.prevent="paginateArrow('down')"
-      >
+        @click.prevent="paginateArrow('down')">
         <svg fill="currentColor" height="14" width="8">
           <use xlink:href="#icon-arrow-left"></use>
         </svg>
       </a>
     </li>
 
-    <li
-      v-for="pageNum in pages"
-      :key="pageNum"
-      class="pagination__item"
-    >
+    <li v-for="pageNum in pages" :key="pageNum" class="pagination__item">
       <a
-        :class="{'pagination__link--current': pageNum === page}"
+        :class="{ 'pagination__link--current': pageNum === page }"
         class="pagination__link"
         href="#"
-        @click.prevent="paginate(pageNum)"
-      >
+        @click.prevent="paginate(pageNum)">
         {{ pageNum }}
       </a>
     </li>
 
     <li class="pagination__item">
       <a
-        :class="{'pagination__link--disabled': page === pages}"
+        :class="{ 'pagination__link--disabled': page === pages }"
         aria-label="Следующая страница"
         class="pagination__link pagination__link--arrow"
         href="#"
@@ -79,6 +73,4 @@ export default {
 }
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
