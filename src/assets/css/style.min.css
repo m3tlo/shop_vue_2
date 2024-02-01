@@ -317,7 +317,9 @@ a {
 .form__label:not(:last-child) {
     margin-bottom: 25px
 }
-
+button{
+    cursor: pointer;
+}
 .form__label--price::after {
     content: '₽';
     position: absolute;

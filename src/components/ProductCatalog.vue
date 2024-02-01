@@ -1,12 +1,10 @@
 <template>
   <section class="catalog">
-
     <product-list :products="products"/>
     <app-pagination
       v-model="page"
       :count="countProducts"
-      :per-page="productsPerPage"
-    />
+      :per-page="productsPerPage"/>
   </section>
 </template>
 
@@ -32,10 +30,7 @@ export default {
       return this.filterProducts.length
     }
   }
-
 }
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

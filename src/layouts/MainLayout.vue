@@ -1,7 +1,9 @@
 <template>
   <div class="main-layout">
     <div style="display: none">
-      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
         <symbol id="icon-arrow-left" viewBox="0 0 8 14">
           <path
             d="M6 12H4v-2h2v2zm-2-2H2V8h2v2zM2 8H0V6h2v2zm2-2H2V4h2v2zm2-2H4V2h2v2zm2-2H6V0h2v2zm0 12H6v-2h2v2z"></path>
@@ -18,7 +20,10 @@
             d="M12 18v3h3v-3h-3zm9 0v3h3v-3h-3zM8.923 4.712V2.48h-2.23V.25H0v2.23h4.462v2.232h2.23v4.461h2.231v-2.23h4.462v2.23H8.923v4.462h2.23v-2.231h2.232v2.23h-2.231v2.231h13.384v-2.23h-2.23v-2.231h2.23v2.23h2.231v-4.46h-4.461V6.941h4.461v2.231H29v-4.46H8.923zm11.154 8.923h-4.462v-2.231h4.462v2.23zm0-4.462h-4.462v-2.23h4.462v2.23z"></path>
         </symbol>
         <symbol id="icon-close" viewBox="0 0 18 18">
-          <path d="M17 1L1 17m16 0L1 1" stroke="#9D9D9D" stroke-width=".8"></path>
+          <path
+            d="M17 1L1 17m16 0L1 1"
+            stroke="#9D9D9D"
+            stroke-width=".8"></path>
         </symbol>
         <symbol id="icon-facebook" viewBox="0 0 17 17">
           <path
@@ -32,11 +37,13 @@
           <path d="M8.287 2.574H.7V.765h7.587v1.809z"></path>
         </symbol>
         <symbol id="icon-plus" viewBox="0 0 12 12">
-          <path d="M6.524 11.086h-1.43v-4.51H.54V5.102h4.554V.57h1.43v4.532h4.554v1.474H6.524v4.51z"></path>
+          <path
+            d="M6.524 11.086h-1.43v-4.51H.54V5.102h4.554V.57h1.43v4.532h4.554v1.474H6.524v4.51z"></path>
         </symbol>
         <symbol id="icon-search" viewBox="0 0 20 20">
-          <path clip-rule="evenodd"
-                d="M13.224 3.097A7.16 7.16 0 113.097 13.224 7.16 7.16 0 0113.224 3.097zm.728 10.813a8.16 8.16 0 10-.042.042l-.7.7 5.049 5.05a1.02 1.02 0 101.442-1.443l-5.049-5.05-.7.7z"></path>
+          <path
+            clip-rule="evenodd"
+            d="M13.224 3.097A7.16 7.16 0 113.097 13.224 7.16 7.16 0 0113.224 3.097zm.728 10.813a8.16 8.16 0 10-.042.042l-.7.7 5.049 5.05a1.02 1.02 0 101.442-1.443l-5.049-5.05-.7.7z"></path>
         </symbol>
         <symbol id="icon-telegram" viewBox="0 0 19 17">
           <path
@@ -47,8 +54,9 @@
             d="M17.062 2.007a7.009 7.009 0 01-2.01.55A3.51 3.51 0 0016.59.62a6.989 6.989 0 01-2.222.85 3.5 3.5 0 00-5.965 3.194 9.94 9.94 0 01-7.215-3.659c-.3.519-.473 1.12-.473 1.76a3.5 3.5 0 001.557 2.914 3.492 3.492 0 01-1.586-.438v.045a3.502 3.502 0 002.808 3.432 3.526 3.526 0 01-1.58.06 3.502 3.502 0 003.27 2.43A7.025 7.025 0 010 12.659a9.9 9.9 0 005.365 1.574c6.44 0 9.96-5.334 9.96-9.96 0-.15-.004-.302-.01-.452a7.116 7.116 0 001.745-1.81l.002-.003z"></path>
         </symbol>
         <symbol id="icon-vk" viewBox="0 0 20 11">
-          <path clip-rule="evenodd"
-                d="M19.541.745c.14-.43 0-.745-.662-.745h-2.188c-.556 0-.812.273-.951.573 0 0-1.113 2.512-2.69 4.143-.51.473-.741.623-1.02.623-.138 0-.347-.15-.347-.58V.745c0-.515-.154-.745-.618-.745H7.627c-.348 0-.557.24-.557.466 0 .488.788.6.87 1.975v2.984c0 .654-.128.773-.406.773-.742 0-2.546-2.523-3.617-5.41C3.707.227 3.497 0 2.938 0H.75C.125 0 0 .273 0 .573c0 .537.742 3.199 3.454 6.72C5.262 9.696 7.809 11 10.127 11c1.391 0 1.563-.29 1.563-.788V8.395c0-.58.132-.695.572-.695.325 0 .881.15 2.18 1.31 1.483 1.374 1.727 1.99 2.562 1.99h2.188c.625 0 .938-.29.757-.86-.197-.57-.905-1.396-1.845-2.375-.51-.558-1.275-1.16-1.507-1.46-.324-.387-.232-.558 0-.902 0 0 2.666-3.477 2.944-4.658z"></path>
+          <path
+            clip-rule="evenodd"
+            d="M19.541.745c.14-.43 0-.745-.662-.745h-2.188c-.556 0-.812.273-.951.573 0 0-1.113 2.512-2.69 4.143-.51.473-.741.623-1.02.623-.138 0-.347-.15-.347-.58V.745c0-.515-.154-.745-.618-.745H7.627c-.348 0-.557.24-.557.466 0 .488.788.6.87 1.975v2.984c0 .654-.128.773-.406.773-.742 0-2.546-2.523-3.617-5.41C3.707.227 3.497 0 2.938 0H.75C.125 0 0 .273 0 .573c0 .537.742 3.199 3.454 6.72C5.262 9.696 7.809 11 10.127 11c1.391 0 1.563-.29 1.563-.788V8.395c0-.58.132-.695.572-.695.325 0 .881.15 2.18 1.31 1.483 1.374 1.727 1.99 2.562 1.99h2.188c.625 0 .938-.29.757-.86-.197-.57-.905-1.396-1.845-2.375-.51-.558-1.275-1.16-1.507-1.46-.324-.387-.232-.558 0-.902 0 0 2.666-3.477 2.944-4.658z"></path>
         </symbol>
       </svg>
     </div>
@@ -57,19 +65,15 @@
         <span class="header__info">Каталог</span>
 
         <a class="header__logo" href="#">
-          <img alt="Логотип интернет магазина Технозавррр" height="33" src="@/assets/svg/logo-tech.svg" width="190">
+          <img
+            alt="Логотип интернет магазина Технозавррр"
+            height="33"
+            src="@/assets/svg/logo-tech.svg"
+            width="190"/>
         </a>
 
-        <a class="header__tel" href="tel:8 800 600 90 09">
-          8 800 600 90 09
-        </a>
-
-        <a aria-label="Корзина с товарами" class="header__cart" href="#">
-          <svg fill="currentColor" height="21" width="30">
-            <use xlink:href="#icon-cart"></use>
-          </svg>
-          <span aria-label="Количество товаров" class="header__count">3</span>
-        </a>
+        <a class="header__tel" href="tel:8 800 600 90 09"> 8 800 123 45 67 </a>
+        <app-cart-btn/>
       </div>
     </header>
     <main class="content container">
@@ -79,14 +83,10 @@
       <div class="footer__wrapper container">
         <ul class="footer__links">
           <li>
-            <a class="footer__link" href="#">
-              Каталог
-            </a>
+            <a class="footer__link" href="#"> Каталог </a>
           </li>
           <li>
-            <a class="footer__link" href="tel:88006009009">
-              8 800 123 45 67
-            </a>
+            <a class="footer__link" href="tel:88006009009"> 8 800 123 45 67 </a>
           </li>
           <li>
             <a class="footer__link" href="mailto:hi@technozavrrr.com">
@@ -94,9 +94,7 @@
             </a>
           </li>
           <li>
-            <a class="footer__link" href="#">
-              Распродажа
-            </a>
+            <a class="footer__link" href="#"> Распродажа </a>
           </li>
           <li>
             <a class="footer__link footer__link--medium" href="#">
@@ -144,48 +142,63 @@
         </ul>
 
         <p class="footer__desc">
-          Все права на&nbsp;материалы, находящиеся на&nbsp;сайте, охраняются в&nbsp;соответствии с&nbsp;законодательством&nbsp;РФ,
-          в&nbsp;том числе об&nbsp;авторском праве и&nbsp;смежных правах.
+          Все права на&nbsp;материалы, находящиеся на&nbsp;сайте, охраняются
+          в&nbsp;соответствии с&nbsp;законодательством&nbsp;РФ, в&nbsp;том числе
+          об&nbsp;авторском праве и&nbsp;смежных правах.
         </p>
 
         <ul class="footer__data">
           <li>
-            <a class="footer__link" href="#" rel="noopener" target="_blank" type="application/pdf">
+            <a
+              class="footer__link"
+              href="#"
+              rel="noopener"
+              target="_blank"
+              type="application/pdf">
               Политика конфиденциальности
             </a>
           </li>
           <li>
-            <a class="footer__link" href="#" rel="noopener" target="_blank" type="application/pdf">
+            <a
+              class="footer__link"
+              href="#"
+              rel="noopener"
+              target="_blank"
+              type="application/pdf">
               Публичная оферта
             </a>
           </li>
         </ul>
 
-        <span class="footer__copyright">
-        © 2023 Технозавррр
-      </span>
+        <span class="footer__copyright"> © 2023 Технозавррр </span>
       </div>
     </footer>
   </div>
 </template>
 <script>
+import AppCartBtn from '@/components/app/AppCartBtn'
+
 export default {
-  name: 'mainLayouts'
+  name: 'mainLayouts',
+  components: {
+    AppCartBtn
+  }
 }
 </script>
 
-<style >
-
+<style>
 .main-layout {
   margin: 0;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
+
 main {
   /* Чтобы занимал оставшееся пространство */
   flex-grow: 1;
 }
+
 footer {
   /* Чтобы footer не уменьшался */
   flex-shrink: 0;
